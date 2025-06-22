@@ -18,7 +18,7 @@
 | `smartcart_mongo`      | MongoDB βάση με όλα τα δεδομένα προϊόντων/καλαθιών           |
 | `smartcart_ml_service` | ML υπηρεσία με KMeans μοντέλο πρόβλεψης αγοραστικών patterns |
 | `smartcart_nodered`    | Node-RED integration UI για real-time ροές                   |
-| `smartcart_jenkins`    | Jenkins CI για έλεγχο & deployment                           |
+| `smartcart_jenkins`    | Jenkins CI για έλεγχο                                        |
 
 ---
 
