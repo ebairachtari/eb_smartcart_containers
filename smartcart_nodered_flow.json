@@ -1,65 +1,55 @@
 [
   {
-    "id": "1a2b3c4d5e6f7g8h",
+    "id": "predict_flow",
     "type": "tab",
-    "label": "SmartCart Stats",
+    "label": "ML Predict",
     "disabled": false,
     "info": ""
   },
   {
-    "id": "inject_stats",
+    "id": "inject_basket",
     "type": "inject",
-    "z": "1a2b3c4d5e6f7g8h",
-    "name": "Get Stats",
-    "props": [
-      {
-        "p": "payload"
-      }
-    ],
+    "z": "predict_flow",
+    "name": "Send basket",
+    "props": [],
     "repeat": "",
     "crontab": "",
     "once": false,
     "onceDelay": 0.1,
     "topic": "",
-    "payload": "",
-    "payloadType": "date",
-    "x": 120,
+    "payload": "{\"basket\": [0, 2, 1, 0, 0, 3, 1, 0, 1]}",
+    "payloadType": "json",
+    "x": 150,
     "y": 100,
     "wires": [
-      [
-        "http_request_stats"
-      ]
+      ["http_predict"]
     ]
   },
   {
-    "id": "http_request_stats",
+    "id": "http_predict",
     "type": "http request",
-    "z": "1a2b3c4d5e6f7g8h",
-    "name": "GET /stats",
-    "method": "GET",
+    "z": "predict_flow",
+    "name": "POST /predict",
+    "method": "POST",
     "ret": "obj",
-    "url": "http://smartcart_backend:5000/stats",
-    "tls": "",
-    "x": 320,
+    "url": "http://smartcart_ml_service:5001/predict",
+    "headers": [],
+    "x": 350,
     "y": 100,
     "wires": [
-      [
-        "debug_stats"
-      ]
+      ["debug_result"]
     ]
   },
   {
-    "id": "debug_stats",
+    "id": "debug_result",
     "type": "debug",
-    "z": "1a2b3c4d5e6f7g8h",
-    "name": "Show Stats",
+    "z": "predict_flow",
+    "name": "Prediction result",
     "active": true,
     "tosidebar": true,
     "console": false,
-    "tostatus": false,
     "complete": "payload",
-    "targetType": "msg",
-    "x": 520,
+    "x": 550,
     "y": 100,
     "wires": []
   }
