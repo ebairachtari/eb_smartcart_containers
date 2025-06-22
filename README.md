@@ -32,8 +32,8 @@ cd eb_smartcart-containers
 docker compose up --build -d
 ```
 
->Αποτελέσματα
-![image](https://github.com/user-attachments/assets/dd580915-491e-4c18-a69b-4ec4220c7084)
+> **Αποτελέσματα**
+>>![image](https://github.com/user-attachments/assets/dd580915-491e-4c18-a69b-4ec4220c7084)
 
 ---
 
@@ -45,8 +45,8 @@ docker compose up --build -d
 ./curl_test.sh
 ```
 
->Αποτελέσματα
-![image](https://github.com/user-attachments/assets/ef5eb13c-04fd-4d22-9ce9-8e26320e576b)
+> **Αποτελέσματα**
+>>![image](https://github.com/user-attachments/assets/ef5eb13c-04fd-4d22-9ce9-8e26320e576b)
 
 
 ### MongoDB:
@@ -58,16 +58,16 @@ show collections
 db.products.find().pretty()
 ```
 
->Αποτελέσματα
-![image](https://github.com/user-attachments/assets/fa1bcdc6-2a5b-4d8d-9890-162253d56e5f)
+> **Αποτελέσματα**
+>>![image](https://github.com/user-attachments/assets/fa1bcdc6-2a5b-4d8d-9890-162253d56e5f)
 
 
 ### Frontend:
 
 [http://localhost:8501](http://localhost:8501) , Στοιχεία Σύνδεδης: Username : `demo_user@unipi.gr`  , Password  : `qqQQ11!!`
 
->Αποτελέσματα
-![image](https://github.com/user-attachments/assets/47273ed4-05fb-4fe4-81f0-01b9a1e0f23f)
+> **Αποτελέσματα**
+>>![image](https://github.com/user-attachments/assets/47273ed4-05fb-4fe4-81f0-01b9a1e0f23f)
 
 
 ### Backend login:
@@ -78,8 +78,8 @@ curl -X POST http://localhost:5000/auth/login \
   -d '{"email": "demo_user@unipi.gr", "password": "qqQQ11!!"}'
 ```
 
->Αποτελέσματα
-![image](https://github.com/user-attachments/assets/26bf5866-cdbe-433f-929f-4a038d15c576)
+> **Αποτελέσματα**
+>>![image](https://github.com/user-attachments/assets/26bf5866-cdbe-433f-929f-4a038d15c576)
 
 ---
 
@@ -98,7 +98,7 @@ curl -X POST http://localhost:5001/predict \
 ```
 
 > **Αποτελέσματα**
->![image](https://github.com/user-attachments/assets/e3d6390a-7c66-4de2-9912-3f91759c211e)
+>>>![image](https://github.com/user-attachments/assets/e3d6390a-7c66-4de2-9912-3f91759c211e)
 
 ---
 
