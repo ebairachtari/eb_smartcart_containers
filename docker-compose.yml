@@ -1,5 +1,3 @@
-version: '3.9'
-
 services:
   mongo:
     image: mongo:4.4
@@ -9,6 +7,8 @@ services:
       - ./mongo-init:/docker-entrypoint-initdb.d/
     restart: always
     container_name: smartcart_mongo
+    networks:
+      - smartnet
 
   backend:
     build:
@@ -19,6 +19,8 @@ services:
     depends_on:
       - mongo
     container_name: smartcart_backend
+    networks:
+      - smartnet
 
   ml_service:
     build:
@@ -27,7 +29,9 @@ services:
     ports:
       - "5001:5001"
     container_name: smartcart_ml_service
-    
+    networks:
+      - smartnet
+
   frontend:
     build:
       context: ./ui
@@ -37,4 +41,19 @@ services:
     depends_on:
       - backend
     container_name: smartcart_frontend
+    networks:
+      - smartnet
 
+  nodered:
+    image: nodered/node-red
+    container_name: smartcart_nodered
+    ports:
+      - "1880:1880"
+    depends_on:
+      - backend
+      - ml_service
+    networks:
+      - smartnet
+
+networks:
+  smartnet:
