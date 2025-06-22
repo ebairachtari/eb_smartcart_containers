@@ -24,6 +24,32 @@
 
 ---
 
+🧱 1. smartcart_mongo
+📦 Image: mongo:4.4
+🔁 Τρέχει MongoDB και αρχικοποιείται με δεδομένα από ./mongo-init/
+
+🧠 2. smartcart_backend
+📦 Image: Χτίζεται από Dockerfile στο root
+🛠 Τρέχει Flask API που μιλά με MongoDB
+🌐 Port: 5000
+
+🤖 3. smartcart_ml_service
+📦 Image: Χτίζεται από ./analytics_service/Dockerfile
+🧠 Περιέχει το ML μοντέλο σου (model.pkl)
+🌐 Port: 5001 (χρησιμοποιείται εσωτερικά από Node-RED)
+
+🖥 4. smartcart_frontend
+📦 Image: Χτίζεται από ./ui/Dockerfile
+📊 Streamlit εφαρμογή
+🌐 Port: 8501
+
+🧩 5. smartcart_nodered
+📦 Image: nodered/node-red
+🔄 Ενοποιεί backend + ML μέσω flows
+🌐 Port: 1880
+
+
+
 ## Οδηγίες Εκτέλεσης
 
 ```bash
@@ -31,6 +57,8 @@ git clone https://github.com/ebairachtari/eb_smartcart-containers.git
 cd eb_smartcart-containers
 docker compose up --build -d
 ```
+
+![image](https://github.com/user-attachments/assets/dd580915-491e-4c18-a69b-4ec4220c7084)
 
 ---
 
@@ -41,6 +69,8 @@ docker compose up --build -d
 ```bash
 ./curl_test.sh
 ```
+![image](https://github.com/user-attachments/assets/ef5eb13c-04fd-4d22-9ce9-8e26320e576b)
+
 
 ### MongoDB:
 
@@ -51,11 +81,16 @@ show collections
 db.products.find().pretty()
 ```
 
+![image](https://github.com/user-attachments/assets/fa1bcdc6-2a5b-4d8d-9890-162253d56e5f)
+
+
 ### Frontend:
 
 [http://localhost:8501](http://localhost:8501)
 
-> Στοιχεία Σύνδεδης: Username : `demo_user@unipi.gr`  , Password  : `qqQQ11!!` 
+> Στοιχεία Σύνδεδης: Username : `demo_user@unipi.gr`  , Password  : `qqQQ11!!`
+
+![image](https://github.com/user-attachments/assets/8f438bdc-f5d7-4d80-b3d8-30a92aa2cda7)
 
 ### Backend login:
 
@@ -64,6 +99,7 @@ curl -X POST http://localhost:5000/auth/login \
   -H "Content-Type: application/json" \
   -d '{"email": "demo_user@unipi.gr", "password": "qqQQ11!!"}'
 ```
+![image](https://github.com/user-attachments/assets/26bf5866-cdbe-433f-929f-4a038d15c576)
 
 ---
 
@@ -75,13 +111,13 @@ curl -X POST http://localhost:5000/auth/login \
 docker compose run --rm ml_service python train_from_mongo.py
 ```
 
-### Παράδειγμα πρόβλεψης:
-
 ```bash
 curl -X POST http://localhost:5001/predict \
   -H "Content-Type: application/json" \
-  -d '{"basket": [1,0,0,1,0,1,0,0,1,0,0,1,0,0,1,0,1,0,0,1]}'
+  -d '{"basket": [1,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,1,0]}'
 ```
+
+![image](https://github.com/user-attachments/assets/e3d6390a-7c66-4de2-9912-3f91759c211e)
 
 ---
 
@@ -97,6 +133,9 @@ curl -X POST http://localhost:5001/predict \
 4. Πατήστε το κουμπί `Send Basket` και δίτε το αποτέλεσμα
 
 Το flow στέλνει δεδομένα καλαθιού στο `http://smartcart_ml_service:5001/predict` και εμφανίζει την απάντηση στο sidebar.
+
+![image](https://github.com/user-attachments/assets/8afaa912-4aea-4dbc-adb9-6a068280c67c)
+
 
 ---
 
