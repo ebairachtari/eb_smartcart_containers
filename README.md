@@ -1,6 +1,6 @@
-## SmartCart Containers
+## SmartCart Containers: Ολοκληρωμένο Πληροφοριακό Σύστημα με ML Service, Jenkins & Node-RED Integration
 
-**Επέκταση του έργου**: [eb\_Smartcart](https://github.com/ebairachtari/eb_Smartcart)
+**Επέκταση του project**: [eb\_Smartcart](https://github.com/ebairachtari/eb_Smartcart)
 
 Αυτή η εργασία αποτελεί **επεκταμένη υλοποίηση** του SmartCart. Περιλαμβάνει:
 
