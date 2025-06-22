@@ -10,9 +10,9 @@ services:
       - "50000:50000"
     volumes:
       - jenkins_home:/var/jenkins_home
-      - /var/run/docker.sock:/var/run/docker.sock  # <-- Σημαντικό για πρόσβαση στο Docker
+      - /var/run/docker.sock:/var/run/docker.sock
+    user: root
     restart: unless-stopped
 
 volumes:
   jenkins_home:
-
