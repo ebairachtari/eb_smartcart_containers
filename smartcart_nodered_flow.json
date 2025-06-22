@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1a2b3c4d5e6f7g8h",
+    "type": "tab",
+    "label": "SmartCart Stats",
+    "disabled": false,
+    "info": ""
+  },
+  {
+    "id": "inject_stats",
+    "type": "inject",
+    "z": "1a2b3c4d5e6f7g8h",
+    "name": "Get Stats",
+    "props": [
+      {
+        "p": "payload"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 120,
+    "y": 100,
+    "wires": [
+      [
+        "http_request_stats"
+      ]
+    ]
+  },
+  {
+    "id": "http_request_stats",
+    "type": "http request",
+    "z": "1a2b3c4d5e6f7g8h",
+    "name": "GET /stats",
+    "method": "GET",
+    "ret": "obj",
+    "url": "http://smartcart_backend:5000/stats",
+    "tls": "",
+    "x": 320,
+    "y": 100,
+    "wires": [
+      [
+        "debug_stats"
+      ]
+    ]
+  },
+  {
+    "id": "debug_stats",
+    "type": "debug",
+    "z": "1a2b3c4d5e6f7g8h",
+    "name": "Show Stats",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "x": 520,
+    "y": 100,
+    "wires": []
+  }
+]

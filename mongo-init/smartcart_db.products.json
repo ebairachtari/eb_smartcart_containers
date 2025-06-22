@@ -1,0 +1,557 @@
+[{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480ae"
+  },
+  "name": "MIMIKOS Σνίτσελ Κοτολουχουδιές (470g)",
+  "price_efresh": 7.06,
+  "price_per_unit_efresh": "15.021 € / kg",
+  "price_marketin": 7.05,
+  "price_per_unit_marketin": "15€ ανά κιλό",
+  "final_price": 6.7,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc72108b"
+  },
+  "description": "Παναρισμένα φιλέτα κοτόπουλου έτοιμα για ψήσιμο ή τηγάνισμα. Θα είναι έτοιμα να τα απολαύσετε μέσα σε λίγα λεπτά. Τρόπος Διατήρησης Διατηρούνται στους 0-4οC  σφραγισμένα μέσα στη συσκευασία τους μέχρι την ημερομηνία λήξης. Για να απολαύσετε την ποιότητα και τη γεύση των Κοτολιχουδιών MIMIKOS συνιστούμε τη διατήρηση τους στη συντήρηση του ψυγείου σας. Η νέα τους συσκευασία έτσι κι αλλιώς επιτρέπει να τα διατηρήσετε για ακόμα μεγαλύτερο διάστημα. Αν ανοίξετε την συσκευασία θα πρέπει να καταναλώσετε το προϊόν μέσα σε μια ημέρα. Τρόποι Χρήσης 1) Φριτέζα/ Τηγάνι: Προθερμαίνετε το λάδι στους 180οC. Αδειάζετε προσεκτικά το περιεχόμενο στη φριτέζα/τηγάνι. Τηγανίζετε για 3 λεπτά* περίπου, εναλλάσσοντας τις δύο πλευρές. Για να παραμείνουν τα σνίτσελ τραγανά, πριν τα σερβίρετε, αφήστε τα για λίγο πάνω σε απορροφητικό χαρτί. 2) Φούρνος: Προθερμαίνετε το φούρνου στους 200οC. Τοποθετείτε το περιεχόμενο σε ταψάκι. Ψήνετε για 10 λεπτά* περίπου. *Σας επισημαίνουμε ότι οι ηλεκτρικές συσκευές διαφέρουν η μία από την άλλη και για το λόγο αυτό πιθανόν να χρειαστεί να προσαρμόσετε το χρόνο μαγειρέματος στη δική σας συσκευή.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/3/4100009733/5201063014224-highres-1.jpg?id=1594217178",
+  "nutrition": "Διατροφικά Στοιχεία\nΔιατροφικά Στοιχεία Ανά 100g\nΕνέργεια 820 kJ / 196 kcal\nΛιπαρά  9,6g\nκορεσμένα 4,1g\nΥδατάνθρακες 9,7g\nσάκχαρα 0,4g\nΠρωτεϊνες 17,7g\nΑλάτι  1,5g",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/snitsel-apo-fileto-kotopoyloy-mimikos-470-g",
+  "marketin_url": "https://www.market-in.gr/el-gr/kreopoleio-kreopoleio-kotopoula-nopa-tupopoihmena/mimikos-kotopoulo-snitsel-470gr",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.902Z"
+  },
+  "stock": 94
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480af"
+  },
+  "name": "Atlantikos Cocktail Θαλασσινών Κατεψυγμένα (425g)",
+  "price_efresh": 3.79,
+  "price_per_unit_efresh": "8.918 € / kg",
+  "price_marketin": 4.25,
+  "price_per_unit_marketin": "10€ ανά κιλό",
+  "final_price": 3.6,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc72108c"
+  },
+  "description": "Το μείγμα Θαλασσινών με λαχανικά και σάλτσα ντομάτας είναι έτοιμο για μαγείρεμα. Η ιδανική επιλογή για να εντυπωσιάσετε μόνο σε 11 λεπτά. Δημιουργήστε ριζότο ή μακαρόνια θαλασσινών από εκλεκτές πρώτες ύλες , με υπέροχο άρωμα για να ένα γευστικό αποτέλεσμα. Προιον βαθείας κατάψυξης. Διατηρείται υπό κατάψυξη (<-18C).",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/7/4100142207/meigma-thalassinwn-500gr.png?id=1643883281",
+  "nutrition": "Διατροφικά Στοιχεία\nΕνέργεια: 320 Kj/76Kcal\nΛιπαρά: 1,7 gr\nεκ των οποίων κορεσμένα 0,6 gr\nΥδατάνθρακες:  3,0 gr\nεκ των οποίων σάκχαρα < 0,05 gr\nΠρωτεΐνες: 12 gr\nΑλάτι: 1,5 gr",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/cocktail-thalassinwn-me-laxanika-katepsygmena-atlantikos-425g",
+  "marketin_url": "https://www.market-in.gr/el-gr/katepsugmena-katapsuksh-psaria-katepsugmena/atlantikos-meigma-thalassinon-ktps-500-gr-",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.937Z"
+  },
+  "stock": 34
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480b0"
+  },
+  "name": "Atlantikos Μπακαλιάρος Φιλέτο Pollock Κατεψυγμένος (700g)",
+  "price_efresh": 6.49,
+  "price_per_unit_efresh": "10.908 € / kg",
+  "price_marketin": 5.09,
+  "price_per_unit_marketin": "8,55€ ανά κιλό",
+  "final_price": 4.84,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc72108c"
+  },
+  "description": "Ο Μπακαλιάρος Pollock ελαφρώς αλατισμένος Ατλαντικός είναι φιλεταρισμένος, καθαρισμένος σε μερίδες για μεγαλύτερη ευκολία. Θυμίζει τον παραδοσιακό ξαλμυρισμένο μπακαλιάρο αλλά δεν χρειάζεται η διαδικασία ξαρμυρίσματος. Ιδανικός για τηγάνι , φούρνο και κατσαρόλα. Μην ξεχάσετε να τον συνοδεύσετε με την παραδοσιακή σκορδαλιά. Προιον βαθείας κατάψυξης. Διατηρείται υπό κατάψυξη (<-18C).",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/5/4100018275/13.00.0045-500x500.jpg?id=1561385572",
+  "nutrition": "Διατροφικά Στοιχεία\nΕνέργεια: 221 Kj/52Kcal\nΛιπαρά: 1,1 gr\nεκ των οποίων κορεσμένα 0,2 gr\nΥδατάνθρακες: <0,1 gr\nεκ των οποίων σάκχαρα 0,0 gr\nΠρωτεΐνες: 10,1gr\nΑλάτι: 0,22 gr",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/mpakaliaros-fileto-pollock-xalmyrismenos-se-merides-katepsygmenos-atlantikos-700g-kb595g",
+  "marketin_url": "https://www.market-in.gr/el-gr/katepsugmena-katapsuksh-psaria-katepsugmena/atlantikos-mpakaliaros-fileto-pollock-ktps-fao61-700gr-",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.938Z"
+  },
+  "stock": 96
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480b1"
+  },
+  "name": "Atlantikos Γαρίδες Νο1 Αργεντινής (400g)",
+  "price_efresh": 8.93,
+  "price_per_unit_efresh": "22.325 € / kg",
+  "price_marketin": 7.99,
+  "price_per_unit_marketin": "23,5€ ανά κιλό",
+  "final_price": 7.59,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc72108c"
+  },
+  "description": "Η Γαρίδα Γαμπαρη Αργεντινής είναι ιδανική για ξεχωριστά πιάτα που εντυπωσιάζουν. Μαγειρέψετε της στο τηγάνι ή στην κατσαρόλα.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/3/4100144013/garida-no-1-argentinhs-400-gr-340-gr-kb.png?id=1675252299",
+  "nutrition": {
+    "$numberDouble": "NaN"
+  },
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/garides-no1-argentinhs-400g-kb340g",
+  "marketin_url": "https://www.market-in.gr/el-gr/katepsugmena-katapsuksh-psaria-katepsugmena/atlantikos-garides-argentinis-n1-fao041-400gr-",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.938Z"
+  },
+  "stock": 15
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480b2"
+  },
+  "name": "Φρεσκούλης Σαλάτα Ιταλιάνα (100g)",
+  "price_efresh": 1.08,
+  "price_per_unit_efresh": "10.800 € / kg",
+  "price_marketin": 0.99,
+  "price_per_unit_marketin": "9,9€ ανά κιλό",
+  "final_price": 0.94,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc72108d"
+  },
+  "description": "Ο Φρεσκούλης δημιουργεί καθημερινά για εσάς φρεσκοκομμένες, φρεσκοπλυμένες, νόστιμες έτοιμες σαλάτες λαχανικών, σαλάτες γεύματα και φρουτοσαλάτες σε μεγάλη ποικιλία για όλες τις διαθέσεις. Είναι τόσο εύκολο να τρώμε σωστά! Ολόφρεσκες σαλάτες με διαλεγμένα λαχανικά.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/7/4100017657/thumbs/freskoulis-italiana-100gr.jpg?id=1612375741",
+  "nutrition": "Διατροφικά Στοιχεία\nΕνέργεια 105Kj/25Kcal\nΛιπαρά 0,1 gr\nεκ των οποίων κορεσμένα 0,0gr\nΥδατάνθρακες 3,4 gr\nεκ των οποίων σάκχαρα 1,2 gr\nΠρωτεϊνες 1,6 gr\nΑλάτι 0,03 gr",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/salata-italiana-freskoylhs-100-g-1",
+  "marketin_url": "https://www.market-in.gr/el-gr/manabikh-manabikh-salates-freskies-etoimes/freskoulhs-salata-italiana-100-gr-",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.939Z"
+  },
+  "stock": 37
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480b3"
+  },
+  "name": "Φρεσκούλης Σαλάτα Γουστόζα (100g)",
+  "price_efresh": 1.1,
+  "price_per_unit_efresh": "11.000 € / kg",
+  "price_marketin": 0.99,
+  "price_per_unit_marketin": "9,9€ ανά κιλό",
+  "final_price": 0.94,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc72108d"
+  },
+  "description": "Ο Φρεσκούλης δημιουργεί καθημερινά για εσάς φρεσκοκομμένες, φρεσκοπλυμένες, νόστιμες έτοιμες σαλάτες λαχανικών, σαλάτες γεύματα και φρουτοσαλάτες σε μεγάλη ποικιλία για όλες τις διαθέσεις. Είναι τόσο εύκολο να τρώμε σωστά! Ολόφρεσκες σαλάτες με διαλεγμένα λαχανικά.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/6/4100017656/freskoulis-goustoza-atomiki-mov-100gr.jpg?id=1593091427",
+  "nutrition": "Διατροφικά Στοιχεία\nΕνέργεια 117Kj/28Kcal\nΛιπαρά 0,3 gr\nεκ των οποίων κορεσμένα 0,0gr\nΥδατάνθρακες 3,6 gr\nεκ των οποίων σάκχαρα 2,1 gr\nΠρωτεϊνες 1,8 gr\nΑλάτι 0,03 gr",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/salata-goystoza-freskoylhs-100-g",
+  "marketin_url": "https://www.market-in.gr/el-gr/manabikh-manabikh-salates-freskies-etoimes/freskoulhs-salata-goustoza-100-gr-",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.940Z"
+  },
+  "stock": -1
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480b4"
+  },
+  "name": "ΦΑΓΕ Total Γιαούρτι Στραγγιστό 0% (500g)",
+  "price_efresh": 3,
+  "price_per_unit_efresh": "6.000 € / kg",
+  "price_marketin": 2.99,
+  "price_per_unit_marketin": "5,98€ ανά κιλό",
+  "final_price": 2.84,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc72108e"
+  },
+  "description": "Το ελληνικό στραγγιστό γιαούρτι ΦΑΓΕ είναι μια εξαιρετική τροφή. Φτιαγμένο με την αυθεντική συνταγή, που χρονολογείται από το 1926, δεν περιέχει πρόσθετα γλυκαντικά, πηκτικά, συντηρητικά, γάλα σε σκόνη, κρέμα γάλακτος σε σκόνη ή σκόνη πρωτείνης. Μόνο γάλα, ανθόγαλα και ζωντανή καλλιέργεια γιαουρτιού δημιουργούν το 100% φυσικό στραγγιστό γιαούρτι ΦΑΓΕ, και επειδή είναι στραγγιστό, έχει περισσότερες πρωτείνες από ό, τι άλλα γιαούρτια. Ένα εξαιρετικά νόστιμο γιαούρτι φτιαγμένο με 100% φυσικά συστατικά.Τόσο πλούσιο και κρεμώδες, κι όμως χωρίς καθόλου λιπαρά. Το Total 0% δεν είναι ένα απλό γιαούρτι, είναι πρόκληση. Χωρίς λιπαρά. Υψηλή περιεκτικότητα σε πρωτείνη. Πλούσιο σε ασβέστιο. Κατάλληλο για χορτοφάγους.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/6/4100150026/500gr-5201054018828-02.jpg?id=1743093154",
+  "nutrition": {
+    "$numberDouble": "NaN"
+  },
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/giaoyrti-straggisto-total-0-lipara-fage-500-g",
+  "marketin_url": "https://www.market-in.gr/el-gr/galaktokomika-proionta-psugeiou-giaourtia-kai-epidorpia-giaourtia-straggista/fage-total-giaourti-straggisto-0-500gr",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.940Z"
+  },
+  "stock": 99
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480b5"
+  },
+  "name": "ΜΕΒΓΑΛ Harmony Gourmet Επιδόρπιο Στραγγιστού Γιαουρτιού Cookies & Cream (160g)",
+  "price_efresh": 1.68,
+  "price_per_unit_efresh": "10.500 € / kg",
+  "price_marketin": 1.68,
+  "price_per_unit_marketin": "10,5€ ανά κιλό",
+  "final_price": 1.6,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc72108e"
+  },
+  "description": "Η καταπληκτική γεύση των Cookies and cream έχει συνδυαστεί αρμονικά με τα brownies, ανεβάζοντας τον πήχη στα gourmet γαλακτοκομικά. Ένα εκλεκτό μίνι γεύμα για κάθε ώρα της ημέρας! Με κουταλάκι στον περιέκτη, μπορείς να το απολαύσεις εύκολα όπου κι αν βρίσκεσαι!",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/1/4100142741/harmony-gourmet-cookies-cream.png?id=1652971660",
+  "nutrition": "Διατροφικά Στοιχεία\nΑνά 100g\nΕνέργεια 485kJ/115kcal\nΛιπαρά \t2,3g\nεκ των οποίων κορεσμένα 1,3g\nΥδατάνθρακες 17,4g\nεκ των οποίων σάκχαρα 15,1g\nΦυτικές ίνες 0,5g\nΠρωτεΐνες 5,9g\nΑλάτι 0,11g",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/epidorpio-straggistoy-giaoyrtioy-cookies-cream-me-brownies-harmony-gourmet-mebgal-160g",
+  "marketin_url": "https://www.market-in.gr/el-gr/galaktokomika-proionta-psugeiou-kremes-glukismata-gluka-epidorpia-galaktos/mevgal-gourmet-epidorpio-cream-cookies-160gr",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.942Z"
+  },
+  "stock": 95
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480b6"
+  },
+  "name": "ΜΕΒΓΑΛ Αριάνι Χωρίς Γλουτένη 1,5% λιπαρά (500ml)",
+  "price_efresh": 1.29,
+  "price_per_unit_efresh": "2.580 € / lt",
+  "price_marketin": 1.29,
+  "price_per_unit_marketin": "2,58€ ανά λίτρο",
+  "final_price": 1.23,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc72108e"
+  },
+  "description": "Η Μεβγάλ επεκτείνοντας την γκάμα των προϊόντων της, πρόσφατα λανσάρισε το νέο προϊόν με βάση το φρέσκο γάλα, το Αριάνι Μεβγάλ. Ρόφημα γάλακτος από ημιαποβουτυρωμένο γάλα αγελάδος 1,5% λιπαρά με πολύτιμη καλλιέργεια γιαούρτης.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/6/4100000256/mebgal-ariani-500ml.png?id=1659017186",
+  "nutrition": "Διατροφικά Στοιχεία\nΑνά 100ml\nΕνέργεια 175 kj/42kcal\nΛιπαρά\t1,5g\nκορεσμένα 1g\nΥδατάνθρακες 3,7g\nσάκχαρα 3,7g\nΠρωτεϊνες 3,3g\nΑλάτι 0,15g",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/ariani-15-lipara-mebgal-500-ml",
+  "marketin_url": "https://www.market-in.gr/el-gr/galaktokomika-proionta-psygeiou-galata-gala-fresko-ksinogala/mevgal-ariani-gala-agelados-xoris-gloutenh-1-5-500ml",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.943Z"
+  },
+  "stock": 89
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480b7"
+  },
+  "name": "Misko Σπαγγέτι Νο 10 Ολικής Άλεσης (500g)",
+  "price_efresh": 1.52,
+  "price_per_unit_efresh": "3.040 € / kg",
+  "price_marketin": 1.11,
+  "price_per_unit_marketin": "2,22€ ανά κιλό",
+  "final_price": 1.05,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc72108f"
+  },
+  "description": "Ακόμη πιο λεπτό ζυμαρικό από τα Νο6 και Νο7, για ακόμη πιο λεπτές γεύσεις. Δοκιμάστε το και θα μας θυμηθείτε! Η γεύση και το κράτημα MISKO είναι εγγυημένα σε όποια συνταγή και αν επιλέξετε για σήμερα. Και αν έχετε διάθεση για κάτι διαφορετικό, δοκιμάστε να βράσετε μαζί Νο7 και Νο10 για 6-8 λεπτά. Το Νο7 θα κρατάει λίγο περισότερο και το Νο10 θα είναι πιο μαλακό, οπότε θα έχετε μια μεικτή πρωτόγνωρη αίσθηση στο στόμα!Η γεύση και το κράτημα του λεπτού ζυμαρικού σε μεγαλύτερη πλέον ποικιλία, για ακόμα ποιοτικότερη διατροφή.Ζυμαρικό για ισορροπημένη διατροφή και γεύση και ιδανικό για να το συνοδεύσετε με σάλτσες.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/9/4100001399/5201010009433-1.jpg?id=1678463726",
+  "nutrition": "Διατροφικά Στοιχεία\nΔιατροφικά Στοιχεία Ανά 100g\nΕνέργεια: 1469 kj\nΕνέργεια: 347 kcal\nΛιπαρά: 2,7 g\nΛιπαρά εκ των οποίων κορεσμένα: 0,6 g\nΥδατάνθρακες: 64,0 g\nΥδατάνθρακες εκ των οποίων σάκχαρα: 3,0 g\nΕδώδιμες ίνες: 7,5 g\nΠρωτεΐνες: 13,0 g\nΑλάτι: 0,01 g",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/spaggetini-no-10-olikhs-aleshs-misko-500-g",
+  "marketin_url": "https://www.market-in.gr/el-gr/trofima-zumarika-makaronia/misko-olikhs-aleseos-spaggeti-no6-500gr-",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.944Z"
+  },
+  "stock": 92
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480b8"
+  },
+  "name": "3 ΑΛΦΑ Ρύζι Καρολίνα (500g)",
+  "price_efresh": 2.23,
+  "price_per_unit_efresh": "4.460 € / kg",
+  "price_marketin": 2.26,
+  "price_per_unit_marketin": "4,52€ ανά κιλό",
+  "final_price": 2.12,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc72108f"
+  },
+  "description": "Το Ρύζι Καρολίνα 3αλφα είναι ιδανικό για γεμιστά και ριζότο. Το χρώμα του είναι λευκό και το σχήμα του μεσόσπερμο. Είναι προτιμητέο για φαγητά φούρνου.Απελευθερώνει πολύ άμυλο κατά το μαγείρεμα, χωρίς να λιώσει όμως, και έτσι μας δίνει φαγητό μελάτο και ζουμερό. Έχει χαρακτηριστικό λευκό χρώμα, που επιτυγχάνεται με τη λεύκανσή του, το ξύσιμο δηλαδή του εξωτερικού περιβλήματος μετά την αποφλοίωσή του. Το ρύζι έθρεψε και θρέφει εκατομμύρια ανθρώπους κυρίως στις ασιατικές χώρες ενώ οι ρίζες του συναντώνται στη μακρινή Ανατολή πριν από τουλάχιστον 5.000 χρόνια. Μονοκοτυλήδονο φυτό που ευδοκιμεί σε τροπικό και υποτροπικό κλίμα. Η καλλιέργεια του ρυζιού στην Ευρώπη πραγματοποιείται αποκλειστικά στις χώρες της Μεσογείου. Η καλλιέργεια του είναι η μεγαλύτερη από οποιοδήποτε άλλο γεωργικό προϊόν αν αναλογιστούμε ότι είναι η βασική τροφή για τα 3/5 του πλανήτη. Πηγή υδατανθράκων για τον οργανισμό, πρωτεϊνών και αμινοξέων. Τροφοδοτεί τον οργανισμό με ενέργεια ενώ οι πρωτείνες και τα αμινοξέα τον βοηθούν να αναδομηθεί με νέους μυϊκούς ιστούς και κύτταρα.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/2/4100001172/5201399020074-3alfa-ryzi-karolina-500gr.jpeg?id=1661781782",
+  "nutrition": "Διατροφικά Στοιχεία\nΕνέργεια 1433kJ/338kcal\nΛιπαρά 0,8gr\nεκ των οποίων κορεσμένα 0,2 gr\nΥδατάνθρακες 73 gr\nεκ των οποίων σάκχαρα 0 gr\nΠρωτεϊνες 8,6 gr\nΑλάτι 0,05 gr",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/ryzi-karolina-3alfa-500-g",
+  "marketin_url": "https://www.market-in.gr/el-gr/trofima-ruzia-ruzi-karolina/3alfa-ruzi-karolina-e-e-500gr",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.944Z"
+  },
+  "stock": 13
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480b9"
+  },
+  "name": "ΜΠΑΡΜΠΑ ΣΤΑΘΗΣ Κινόα με Λαχανικά Κατεψυγμένα (400g)",
+  "price_efresh": 4.4,
+  "price_per_unit_efresh": "11.000 € / kg",
+  "price_marketin": 2.99,
+  "price_per_unit_marketin": "7,48€ ανά κιλό",
+  "final_price": 2.84,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc721090"
+  },
+  "description": "Κινόα με Λαχανικά  Κατεψυγμένα.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/2/4100143372/kinoa.png?id=1664726789",
+  "nutrition": "Διατροφικά Στοιχεία\nΑνά 100g\nΕνέργεια\t                  353kJ/84kcal\nΛιπαρά\t                               1,2g\nεκ των οποίων κορεσμένα\t               0,2g\nΥδατάνθρακες\t                      14g\nεκ των οποίων σάκχαρα\t               3,7g\nΕδώδιμες ίνες\t                       2,6g\nΠρωτεΐνες\t                       2,9g\nΑλάτι\t                               0,68g",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/kinoa-me-laxanika-katepsygmena-mparmpa-stathhs-400g",
+  "marketin_url": "https://www.market-in.gr/el-gr/katepsugmena-katapsuksh-katepsugmena-etoima-faghta/mparmpa-stathis-kinoa-me-laxanika-vegan-400gr",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.945Z"
+  },
+  "stock": 2
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480ba"
+  },
+  "name": "Χρυσή Ζύμη Τυροπιτάκια Σφολιάτας με φέτα & μυζήθρα (800g)",
+  "price_efresh": 4.84,
+  "price_per_unit_efresh": "6.050 € / kg",
+  "price_marketin": 2.99,
+  "price_per_unit_marketin": "3,74€ ανά κιλό",
+  "final_price": 2.84,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc721090"
+  },
+  "description": "Πλούσια γέμιση από εκλεκτά υλικά για ένα λαχταριστό αποτέλεσμα! Συνθήκες Διατήρησης: Στο ψυγείο : 24 ώρες Σε κατάψυξη(**) -120C: 1 μήνα Σε καταψύκτη (***) -180C: Μέχρι την ημερομηνία λήξης Προσοχή: Μην καταψύχετε ένα αποψυγμένο προϊόν! Το προϊόν δεν ψήνεται σε φούρνο μικροκυμάτων.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/5/4100143355/5201231003852-1.png?id=1697725561",
+  "nutrition": "Διατροφικά Στοιχεία\nΑνά 100g\nΕνέργεια 1310kJ/314kcal\nΛιπαρά \t19,6g\nεκ των οποίων κορεσμένα 10,3g\nΥδατάνθρακες 26,3g\nεκ των οποίων σάκχαρα 3,2g\nΕδώδιμες ίνες 1,7g\nΠρωτεΐνες 7,3g\nΑλάτι \t1,24g",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/tyropitakia-me-feta-myzhthra-xrysh-zymh-800-g",
+  "marketin_url": "https://www.market-in.gr/el-gr/katepsugmena-katapsuksh-katepsugmena-mini-pitakia/xrysi-zymi-tyropitakia-sfoliatas-800gr",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.946Z"
+  },
+  "stock": -2
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480bb"
+  },
+  "name": "Elite Κράκερς Μεσογειακά με Φέτα & Ρίγανη (105g)",
+  "price_efresh": 1.59,
+  "price_per_unit_efresh": "15.143 € / kg",
+  "price_marketin": 1.59,
+  "price_per_unit_marketin": "15,14€ ανά κιλό",
+  "final_price": 1.51,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc721091"
+  },
+  "description": "Η Elite σας ταξιδεύει στον κόσμο της Φυσικής Απόλαυσης με τα Elite Crackers Μεσογειακά. Με εξαιρετικό παρθένο ελαιόλαδο και συστατικά εμπνευσμένα από τη Μεσογειακή διατροφή, είναι η ιδανική λύση για απολαυστικό και ισορροπημένο snacking. Elite Crackers Μεσογειακά. Η Φυσική μας Απόλαυση!",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/9/4100005139/159100_-_elite_med_crackers_105g_3d.png?id=1561383691",
+  "nutrition": {
+    "$numberDouble": "NaN"
+  },
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/mesogeiaka-crackers-me-feta-kai-riganh-elite-105-g",
+  "marketin_url": "https://www.market-in.gr/el-gr/trofima-mpiskota-mpiskota-almura/elite-crackers-mesogeiaka-feta-riganh-105gr",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.946Z"
+  },
+  "stock": 94
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480bc"
+  },
+  "name": "Hungry Not Μπάρες Πρωτεΐνης με Σοκολάτα & Πραλίνα Φουντουκιού (3 x 45g)",
+  "price_efresh": 3.95,
+  "price_per_unit_efresh": "29.259 € / kg",
+  "price_marketin": 3.59,
+  "price_per_unit_marketin": "26,59€ ανά κιλό",
+  "final_price": 3.41,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc721091"
+  },
+  "description": "Ο σύγχρονος τρόπος ζωής έχει αλλάξει τις διατροφικές συνήθειες των καταναλωτών, οι οποίοι καταναλώνουν προϊόντα υγιεινά με βιταμίνες και θρεπτικά συστατικά προσπαθώντας να ενισχύσουν το ανοσοποιητικό τους σύστημα, μέσω μιας ισορροπημένης διατροφής. Επιλέγουν σνακ που τους παρέχουν την απαραίτητη ενέργεια και ωφελούν τον οργανισμό ανάμεσα στα κύρια γεύματα τους. Η ΣΔΟΥΚΟΣ Α.Ε. αναγνωρίζοντας τις ανάγκες, υιοθετεί νέες τεχνολογίες, παράγοντας τρόφιμα με αυξανόμενη διατροφική αξία και ασφάλεια, καλύπτοντας τις απαιτήσεις των καταναλωτών. Οι μπάρες #HungryNot προσφέρονται σε μεγάλη ποικιλία. Επιλέγονται από άτομα που προσέχουν τη διατροφή τους, αθλητές, υπαλλήλους γραφείου, μαθητές σχολείου ….ως σνακ σε κάθε περίσταση, προσφέρουν ενέργεια και θρεπτικά οφέλη (υψηλής ποιότητας πρωτεΐνες, μέταλλα, βιταμίνες και ίνες). *Συμβάλει στην αύξηση της μυϊκής μάζας, Έχει αποδειχθεί πως οι βιταμίνες Β6 και Β12 συμβάλουν στη μείωση της κούρασης και της κόπωσης.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/7/4100139597/hungrynotbar-protein-18g-praline-3d-set.png?id=1611750918",
+  "nutrition": {
+    "$numberDouble": "NaN"
+  },
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/mpara-prwteinhs-me-sokolata-kai-pralina-foyntoykioy-hungry-not-3x45g",
+  "marketin_url": "https://www.market-in.gr/el-gr/trofima-dhmhtriaka-dhmhtriaka-mpares/hungry-not-mpares-prote-nis-me-sokolata-pralina-fountoukiou-135gr",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.947Z"
+  },
+  "stock": 94
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480bd"
+  },
+  "name": "Καραμολέγκος Ψωμί σε Φέτες Ζέας (500g)",
+  "price_efresh": 2.35,
+  "price_per_unit_efresh": "4.700 € / kg",
+  "price_marketin": 1.59,
+  "price_per_unit_marketin": "3,18€ ανά κιλό",
+  "final_price": 1.51,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc721092"
+  },
+  "description": "Καραμολέγκος Ψωμί Τοστ Με Αλεύρι Ζέας Σε Πετρόμυλο 500g.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/1/4100147371/zeas.PNG?id=1713266221",
+  "nutrition": "Διατροφικά Στοιχεία\nΑνά 100g\nΕνέργεια 1111 kJ/263kcal\nΛιπαρά \t4,2g\nεκ των οποίων κορεσμένα 1,0g\nΥδατάνθρακες 40,4g\nεκ των οποίων σάκχαρα 2,9g\nΕδώδιμες ίνες 5,3g\nΠρωτεΐνες 13,3g\nΑλάτι 1,26g\n* Π.Π.Α.: Προσλαμβανόμενη Ποσότητα Αναφοράς ενός μέσου ενήλικα (8400kJ/2000kcal).",
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/pswmi-se-fetes-karamolegkos-zeas-500g",
+  "marketin_url": "https://www.market-in.gr/el-gr/trofima-artopoiia-psomi-se-fetes/karamolegkos-psomi-se-fetes-zeas-500gr",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.948Z"
+  },
+  "stock": 91
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480be"
+  },
+  "name": "Κάψουλες espresso Ristretto Jacobs (10 τεμ.)",
+  "price_efresh": 3.79,
+  "price_per_unit_efresh": "0.379 € / τεμ",
+  "price_marketin": 3.99,
+  "price_per_unit_marketin": "76,73€ ανά κιλό",
+  "final_price": 3.6,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc721093"
+  },
+  "description": "Ζήστε μια έντονη εμπειρία espresso από τις νέες κάψουλες JACOBS espresso. Οι πρώτες κάψουλες αλουμινίου από τον JACOBS, συμβατές με μηχανές καφέ Nespresso ®. Για πιο έντονο espresso με ακόμα πιο πλούσια και απαλή κρέμα.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/5/4100005765/8711000371206-front.png?id=1734604217",
+  "nutrition": {
+    "$numberDouble": "NaN"
+  },
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/espresso-kapsoyles-ristretto-jacobs-10tem-53-g",
+  "marketin_url": "https://www.market-in.gr/el-gr/trofima-proino-kafedes-rofhmata-se-kapsoules/jacobs-espresso-ristretto-kapsoules-sumvates-me-mhxanes-nespresso-10tem",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.948Z"
+  },
+  "stock": 96
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480bf"
+  },
+  "name": "Lipton Τσάι Μαύρο Κανέλα Chai (20 τεμ.)",
+  "price_efresh": 3.19,
+  "price_per_unit_efresh": "93.824 € / kg",
+  "price_marketin": 2.79,
+  "price_per_unit_marketin": "0,14€ ανά τεμάχιο",
+  "final_price": 3.03,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc721093"
+  },
+  "description": {
+    "$numberDouble": "NaN"
+  },
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/410/3/4100149023/019a-lipton-mt-pyr-chai-20t-01.jpeg?id=1729155541",
+  "nutrition": {
+    "$numberDouble": "NaN"
+  },
+  "scraped_from": [
+    "efresh"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/tsai-mayro-kanela-chai-lipton-20-pyramides-x-17-g-1",
+  "marketin_url": "https://www.market-in.gr/el-gr/ALL?Title=Lipton%C2%A0Chai+",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.950Z"
+  },
+  "stock": 43
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480c0"
+  },
+  "name": "Ariel Κάψουλες Πλυντηρίου Ρούχων All In 1 Alpine (38 τεμ.)",
+  "price_efresh": 11.01,
+  "price_per_unit_efresh": "0.290 € / τεμ",
+  "price_marketin": 10.35,
+  "price_per_unit_marketin": "0,27€ ανά τεμάχιο",
+  "final_price": 9.83,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc721094"
+  },
+  "description": "Το Ariel, η προτεινόμενη μάρκα της Whirlpool Electrolux, Beko, παρουσιάζει τις κάψουλες πλυντηρίου Ariel Allin1 PODS Alpine, που απομακρύνουν τους δύσκολους λεκέδες και τις δυσάρεστες οσμές, ακόμη και σε χαμηλές θερμοκρασίες και σε κρύες πλύσεις. Έχουν σχεδιαστεί για να καθαρίζουν αποτελεσματικά ακόμα και σε χαμηλότερες θερμοκρασίες, διαλύονται γρήγορα ακόμα και σε κρύο νερό και παρέχουν άψογα αποτελέσματα. Τοποθετήστε πρώτα την κάψουλα στο πίσω μέρος του άδειου κάδου, και από πάνω τα ρούχα σας. ΠΡΟΕΙΔΟΠΟΙΗΣΗ: Tο προϊόν μπορεί να είναι επιβλαβές και να προκαλέσει σωματικές βλάβες. Kρατάτε πάντα τις κάψουλες πλυντηρίου Ariel Allin1 PODS μακριά από παιδιά. Για επιπλέον πληροφορίες επισκεφθείτε τo keepcapsfromkids.eu.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/440/3/4400004653/80834324-8700216803519-ariel-pods-allin1-alpine-4x38-pi.png?id=1744840384",
+  "nutrition": {
+    "$numberDouble": "NaN"
+  },
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/kapsoyles-plynthrioy-royxwn-all-in-1-alpine-ariel-38-tem",
+  "marketin_url": "https://www.market-in.gr/el-gr/kathariothta-aporrupantika-rouxon-aporrupantika-rouxon-tampletes/ariel-pods-all-in-1-alpine-38tem",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.951Z"
+  },
+  "stock": 39
+},
+{
+  "_id": {
+    "$oid": "6829ff10d83dae89b2e480c1"
+  },
+  "name": "Lenor Μαλακτικό Ρούχων Relax Floral Bouquet (82 Μεζ.)",
+  "price_efresh": 5.61,
+  "price_per_unit_efresh": "0.068 € / μεζ",
+  "price_marketin": 5.49,
+  "price_per_unit_marketin": "0,07€ ανά μεζούρα",
+  "final_price": 5.22,
+  "category_id": {
+    "$oid": "6829d4e58e1ade65fc721094"
+  },
+  "description": "Το μαλακτικό ρούχων Lenor Floral Bouquet προσφέρει άρωμα που διαρκεί 3X περισσότερο (σε σχέση με το Lenor Sensitive) για μικρές στιγμές χαλάρωσης όλη την ημέρα, χάρη στην τεχνολογία αρωματικού ελαίου. Απολαύστε τις χαρές της ζωής. Οι λουλουδάτες πινελιές της σαγηνευτικής φρέζιας σε συνδυασμό με μια ανατολική πικάντικη πινελιά σαφράν θα σας εμπνεύσουν να απολαύσετε κάθε στιγμή. Δοκιμάστε το μαζί με τις αντίστοιχες αρωματικές πέρλες Lenor για ακαταμάχητη απαλότητα και φρεσκάδα.",
+  "image_url": "https://dj0m4io8o9yuz.cloudfront.net/storage/media/catalog/products/440/3/4400004683/80830170-8700216751209-lenor-relax-floral-bouquet-6x82mez-pi.jpg?id=1744878690",
+  "nutrition": {
+    "$numberDouble": "NaN"
+  },
+  "scraped_from": [
+    "efresh",
+    "marketin"
+  ],
+  "efresh_url": "https://www.e-fresh.gr/el/malaktiko-royxwn-relax-floral-bouquet-lenor-82-mez",
+  "marketin_url": "https://www.market-in.gr/el-gr/kathariothta-malaktika-rouxon-aposklhruntika-plu-malaktika-sumpuknomena/lenor-malaktiko-relax-floral-bouquet-82mez",
+  "created_at": {
+    "$date": "2025-05-18T17:38:56.951Z"
+  },
+  "stock": 97
+}]

@@ -1,0 +1,1125 @@
+[{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f16"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2024-12-31T00:00:00.000Z"
+  },
+  "total_price": 58.36,
+  "total_price_efresh": 67.51,
+  "total_price_marketin": 61.96
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f21"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-09T00:00:00.000Z"
+  },
+  "total_price": 36.89,
+  "total_price_efresh": 45.72,
+  "total_price_marketin": 39.44
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f2a"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-12T00:00:00.000Z"
+  },
+  "total_price": 84.13,
+  "total_price_efresh": 96.52,
+  "total_price_marketin": 88.63
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f35"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-17T00:00:00.000Z"
+  },
+  "total_price": 83.72,
+  "total_price_efresh": 98.65,
+  "total_price_marketin": 89.08
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f41"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-26T00:00:00.000Z"
+  },
+  "total_price": 85.66,
+  "total_price_efresh": 96.02,
+  "total_price_marketin": 89.79
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f4f"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-30T00:00:00.000Z"
+  },
+  "total_price": 135.5,
+  "total_price_efresh": 159.56,
+  "total_price_marketin": 143.81
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f5e"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-07T00:00:00.000Z"
+  },
+  "total_price": 86.21,
+  "total_price_efresh": 99.3,
+  "total_price_marketin": 92.14
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f6b"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-14T00:00:00.000Z"
+  },
+  "total_price": 75.64,
+  "total_price_efresh": 89.47,
+  "total_price_marketin": 81.6
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f75"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-18T00:00:00.000Z"
+  },
+  "total_price": 118.89,
+  "total_price_efresh": 139.93,
+  "total_price_marketin": 125.22
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f84"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-26T00:00:00.000Z"
+  },
+  "total_price": 65.34,
+  "total_price_efresh": 73.74,
+  "total_price_marketin": 70.17
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f8d"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-28T00:00:00.000Z"
+  },
+  "total_price": 43.53,
+  "total_price_efresh": 50.98,
+  "total_price_marketin": 44.63
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f95"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-08T00:00:00.000Z"
+  },
+  "total_price": 71.83,
+  "total_price_efresh": 79.12,
+  "total_price_marketin": 75.61
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840f9d"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-16T00:00:00.000Z"
+  },
+  "total_price": 91.68,
+  "total_price_efresh": 112.02,
+  "total_price_marketin": 96.97
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840fab"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-18T00:00:00.000Z"
+  },
+  "total_price": 91.86,
+  "total_price_efresh": 108.68,
+  "total_price_marketin": 96.46
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840fb6"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-28T00:00:00.000Z"
+  },
+  "total_price": 105.42,
+  "total_price_efresh": 126.76,
+  "total_price_marketin": 110.18
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840fc3"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-04-01T00:00:00.000Z"
+  },
+  "total_price": 57.84,
+  "total_price_efresh": 67.04,
+  "total_price_marketin": 60.92
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840fcb"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-04-08T00:00:00.000Z"
+  },
+  "total_price": 40.83,
+  "total_price_efresh": 52.04,
+  "total_price_marketin": 43.65
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840fd5"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-04-14T00:00:00.000Z"
+  },
+  "total_price": 88.78,
+  "total_price_efresh": 108.03,
+  "total_price_marketin": 94.56
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840fe3"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-04-20T00:00:00.000Z"
+  },
+  "total_price": 88.8,
+  "total_price_efresh": 101.4,
+  "total_price_marketin": 95.07
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840fed"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-04-24T00:00:00.000Z"
+  },
+  "total_price": 65.75,
+  "total_price_efresh": 77.3,
+  "total_price_marketin": 70.08
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b840ff8"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-05-01T00:00:00.000Z"
+  },
+  "total_price": 112.22,
+  "total_price_efresh": 135.42,
+  "total_price_marketin": 119.19
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841007"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-05-08T00:00:00.000Z"
+  },
+  "total_price": 63.06,
+  "total_price_efresh": 72.33,
+  "total_price_marketin": 65.84
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841011"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-05-13T00:00:00.000Z"
+  },
+  "total_price": 87.31,
+  "total_price_efresh": 107.59,
+  "total_price_marketin": 91.9
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b84101d"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-05-20T00:00:00.000Z"
+  },
+  "total_price": 85.1,
+  "total_price_efresh": 101.41,
+  "total_price_marketin": 88.35
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841029"
+  },
+  "user_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-05-26T00:00:00.000Z"
+  },
+  "total_price": 72.13,
+  "total_price_efresh": 90.19,
+  "total_price_marketin": 76.73
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841037"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2024-12-30T00:00:00.000Z"
+  },
+  "total_price": 48.35,
+  "total_price_efresh": 57.77,
+  "total_price_marketin": 50.96
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b84103f"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-07T00:00:00.000Z"
+  },
+  "total_price": 119.03,
+  "total_price_efresh": 140.72,
+  "total_price_marketin": 127.36
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b84104b"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-12T00:00:00.000Z"
+  },
+  "total_price": 88,
+  "total_price_efresh": 97.97,
+  "total_price_marketin": 93.82
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841056"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-18T00:00:00.000Z"
+  },
+  "total_price": 63.71,
+  "total_price_efresh": 77.92,
+  "total_price_marketin": 67.51
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841060"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-27T00:00:00.000Z"
+  },
+  "total_price": 70.15,
+  "total_price_efresh": 80.62,
+  "total_price_marketin": 75.82
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841068"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-02T00:00:00.000Z"
+  },
+  "total_price": 111.76,
+  "total_price_efresh": 133.31,
+  "total_price_marketin": 118.68
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841073"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-06T00:00:00.000Z"
+  },
+  "total_price": 45.77,
+  "total_price_efresh": 54.32,
+  "total_price_marketin": 47.46
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b84107b"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-11T00:00:00.000Z"
+  },
+  "total_price": 87.52,
+  "total_price_efresh": 102.8,
+  "total_price_marketin": 92.33
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841088"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-18T00:00:00.000Z"
+  },
+  "total_price": 36.47,
+  "total_price_efresh": 42.33,
+  "total_price_marketin": 38.06
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841090"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-26T00:00:00.000Z"
+  },
+  "total_price": 81.63,
+  "total_price_efresh": 103.42,
+  "total_price_marketin": 84.71
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b84109c"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-04T00:00:00.000Z"
+  },
+  "total_price": 78.88,
+  "total_price_efresh": 85.9,
+  "total_price_marketin": 84.42
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8410a8"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-10T00:00:00.000Z"
+  },
+  "total_price": 60.3,
+  "total_price_efresh": 66.92,
+  "total_price_marketin": 64.83
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8410b3"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-12T00:00:00.000Z"
+  },
+  "total_price": 39.04,
+  "total_price_efresh": 45.57,
+  "total_price_marketin": 41.17
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8410bd"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-19T00:00:00.000Z"
+  },
+  "total_price": 54.68,
+  "total_price_efresh": 65.59,
+  "total_price_marketin": 57.22
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8410c7"
+  },
+  "user_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-27T00:00:00.000Z"
+  },
+  "total_price": 53.64,
+  "total_price_efresh": 62.69,
+  "total_price_marketin": 57.03
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8410d4"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-03T00:00:00.000Z"
+  },
+  "total_price": 117.19,
+  "total_price_efresh": 139.46,
+  "total_price_marketin": 125.34
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8410e3"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-09T00:00:00.000Z"
+  },
+  "total_price": 80.32,
+  "total_price_efresh": 93.29,
+  "total_price_marketin": 84.68
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8410f2"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-13T00:00:00.000Z"
+  },
+  "total_price": 102.22,
+  "total_price_efresh": 121.28,
+  "total_price_marketin": 107.4
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8410ff"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-17T00:00:00.000Z"
+  },
+  "total_price": 64.59,
+  "total_price_efresh": 74.54,
+  "total_price_marketin": 68.22
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b84110c"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-23T00:00:00.000Z"
+  },
+  "total_price": 77.18,
+  "total_price_efresh": 92.47,
+  "total_price_marketin": 81.46
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b84111b"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-30T00:00:00.000Z"
+  },
+  "total_price": 73.39,
+  "total_price_efresh": 88.61,
+  "total_price_marketin": 77.75
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841126"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-08T00:00:00.000Z"
+  },
+  "total_price": 86.2,
+  "total_price_efresh": 104.17,
+  "total_price_marketin": 91.54
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841134"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-11T00:00:00.000Z"
+  },
+  "total_price": 81.83,
+  "total_price_efresh": 92.77,
+  "total_price_marketin": 86.58
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b84113d"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-17T00:00:00.000Z"
+  },
+  "total_price": 75.33,
+  "total_price_efresh": 82.62,
+  "total_price_marketin": 81.33
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841149"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-22T00:00:00.000Z"
+  },
+  "total_price": 59.61,
+  "total_price_efresh": 73.31,
+  "total_price_marketin": 62.77
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841155"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-01T00:00:00.000Z"
+  },
+  "total_price": 57.14,
+  "total_price_efresh": 72.33,
+  "total_price_marketin": 60.15
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b84115d"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-08T00:00:00.000Z"
+  },
+  "total_price": 82.49,
+  "total_price_efresh": 97.07,
+  "total_price_marketin": 86.92
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841169"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-15T00:00:00.000Z"
+  },
+  "total_price": 102.19,
+  "total_price_efresh": 119.95,
+  "total_price_marketin": 108.97
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841178"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-19T00:00:00.000Z"
+  },
+  "total_price": 88.59,
+  "total_price_efresh": 106.52,
+  "total_price_marketin": 94.71
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841187"
+  },
+  "user_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-28T00:00:00.000Z"
+  },
+  "total_price": 83.83,
+  "total_price_efresh": 96.42,
+  "total_price_marketin": 89.24
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841196"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-01T00:00:00.000Z"
+  },
+  "total_price": 59.47,
+  "total_price_efresh": 69.67,
+  "total_price_marketin": 63.24
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8411a4"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-07T00:00:00.000Z"
+  },
+  "total_price": 53.31,
+  "total_price_efresh": 67.56,
+  "total_price_marketin": 56.5
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8411ac"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-11T00:00:00.000Z"
+  },
+  "total_price": 52.04,
+  "total_price_efresh": 58.38,
+  "total_price_marketin": 56.33
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8411b4"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-20T00:00:00.000Z"
+  },
+  "total_price": 89.1,
+  "total_price_efresh": 103.12,
+  "total_price_marketin": 94.75
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8411c3"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-01-24T00:00:00.000Z"
+  },
+  "total_price": 62.03,
+  "total_price_efresh": 72.12,
+  "total_price_marketin": 66.89
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8411ce"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-01T00:00:00.000Z"
+  },
+  "total_price": 40.41,
+  "total_price_efresh": 44,
+  "total_price_marketin": 42.71
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8411d6"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-08T00:00:00.000Z"
+  },
+  "total_price": 38.49,
+  "total_price_efresh": 44.44,
+  "total_price_marketin": 40.55
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8411e0"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-12T00:00:00.000Z"
+  },
+  "total_price": 77.95,
+  "total_price_efresh": 89.81,
+  "total_price_marketin": 83.5
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8411ec"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-16T00:00:00.000Z"
+  },
+  "total_price": 73.34,
+  "total_price_efresh": 82.27,
+  "total_price_marketin": 78.56
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b8411fa"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-02-24T00:00:00.000Z"
+  },
+  "total_price": 61.62,
+  "total_price_efresh": 72.53,
+  "total_price_marketin": 65.79
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841206"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-01T00:00:00.000Z"
+  },
+  "total_price": 61.65,
+  "total_price_efresh": 71.16,
+  "total_price_marketin": 65.49
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841212"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-08T00:00:00.000Z"
+  },
+  "total_price": 78.31,
+  "total_price_efresh": 87.35,
+  "total_price_marketin": 82.56
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841220"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-12T00:00:00.000Z"
+  },
+  "total_price": 73.32,
+  "total_price_efresh": 84.58,
+  "total_price_marketin": 77.77
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b84122c"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-20T00:00:00.000Z"
+  },
+  "total_price": 75.92,
+  "total_price_efresh": 89.04,
+  "total_price_marketin": 81.29
+},
+{
+  "_id": {
+    "$oid": "682a081a9b9328f63b841239"
+  },
+  "user_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-03-24T00:00:00.000Z"
+  },
+  "total_price": 77.33,
+  "total_price_efresh": 94.45,
+  "total_price_marketin": 80.67
+},
+{
+  "_id": {
+    "$oid": "682e1107a2d39a76cf5e525f"
+  },
+  "user_id": {
+    "$oid": "682e09979b2cab932a8338b8"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-05-21T19:44:39.798Z"
+  },
+  "total_price": 0.94,
+  "total_price_efresh": 1.1,
+  "total_price_marketin": 0.99
+},
+{
+  "_id": {
+    "$oid": "6844beda9ee15b027e961ccb"
+  },
+  "user_id": {
+    "$oid": "6844bdde9ee15b027e961cca"
+  },
+  "status": "open",
+  "created_at": {
+    "$date": "2025-06-08T00:36:10.568Z"
+  },
+  "total_price": 1.51,
+  "total_price_efresh": 1.59,
+  "total_price_marketin": 1.59
+},
+{
+  "_id": {
+    "$oid": "6844c88aef2e472a4bb30890"
+  },
+  "user_id": {
+    "$oid": "6844c864ef2e472a4bb3088f"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-06-08T01:17:30.209Z"
+  },
+  "total_price": 4.84,
+  "total_price_efresh": 6.49,
+  "total_price_marketin": 5.09
+},
+{
+  "_id": {
+    "$oid": "6844cf078cf9b03fddd0b589"
+  },
+  "user_id": {
+    "$oid": "6844c864ef2e472a4bb3088f"
+  },
+  "status": "cancelled",
+  "created_at": {
+    "$date": "2025-06-08T01:45:11.201Z"
+  },
+  "total_price": 1.05,
+  "total_price_efresh": 1.52,
+  "total_price_marketin": 1.11
+},
+{
+  "_id": {
+    "$oid": "6844cf378cf9b03fddd0b58b"
+  },
+  "user_id": {
+    "$oid": "6844c864ef2e472a4bb3088f"
+  },
+  "status": "ordered",
+  "created_at": {
+    "$date": "2025-06-08T01:45:59.587Z"
+  },
+  "total_price": 9.68,
+  "total_price_efresh": 12.98,
+  "total_price_marketin": 10.18
+}]

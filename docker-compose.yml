@@ -1,0 +1,57 @@
+version: '3.9'
+
+services:
+  mongo:
+    image: mongo:4.4
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongo-init:/docker-entrypoint-initdb.d/
+    restart: always
+    container_name: smartcart_mongo
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo
+    container_name: smartcart_backend
+
+  ml_service:
+    build:
+      context: ./analytics_service
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    container_name: smartcart_ml_service
+    
+  frontend:
+    build:
+      context: ./ui
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    container_name: smartcart_frontend
+
+  jenkins:
+    build:
+      context: ./jenkins-docker
+      dockerfile: Dockerfile
+    container_name: smartcart_jenkins
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: always
+    user: root
+
+volumes:
+  jenkins_home:
+

@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "6828d9c8a6ec3c0273bf6b5e"
+  },
+  "email": "demo_user@unipi.gr",
+  "password": "scrypt:32768:8:1$OLFQT3b9NNXQNrx7$9be837c272b26403682bbe01565f383769c10e27cf80cc216e376ff5fda130da1a55cf87cdeea7d2e228ce07abb8f278eb6f7013a5a3a94641f8cef9e6a1e8fa",
+  "created_at": {
+    "$date": "2025-05-17T18:47:36.984Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682a01bef854224acd044e54"
+  },
+  "email": "user1_user@unipi.gr",
+  "password": "scrypt:32768:8:1$lfF5bHa3ppfP2WVq$64042894996862a31f753c3805d97488618e5666c93beeb9c2518359d09589e82c0ad2a2963ba21420de44a6d96191ce11aa7b43c5f718e880ecc601f077f17c",
+  "created_at": {
+    "$date": "2025-05-18T15:50:22.458Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682a01c3f854224acd044e55"
+  },
+  "email": "user2_user@unipi.gr",
+  "password": "scrypt:32768:8:1$fQiUO0D99MnwYCLi$79dc94bd717214d9f228a9bb406cafc3d83365ed3e32b083f13835920d7ab9f504903a691009c4a656672fba8d86b64e4cf452932f1058db59c61259c1c35b92",
+  "created_at": {
+    "$date": "2025-05-18T15:50:27.558Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682a01c8f854224acd044e56"
+  },
+  "email": "user3_user@unipi.gr",
+  "password": "scrypt:32768:8:1$1umlqsLsBkpT7Ngx$404448ef43247dcaa52301e25b2c29f645ffc46a6ee03d205abb2d362330c6f5be57da73a00c6a430c4e1788f9b7cad487a173c34bac8a4aeffb3243120cff38",
+  "created_at": {
+    "$date": "2025-05-18T15:50:32.538Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6844c864ef2e472a4bb3088f"
+  },
+  "email": "test_test@gmail.com",
+  "password": "scrypt:32768:8:1$mFhTJWkaHPJPM6F5$8b10c87ce836cc217aab62cd17cfda48c4c779c9bfc1b3b355cfdf28838dccccb31c265cf138ce89e01998df2bb67fb96078b32294d114553678196862fec8d7",
+  "created_at": {
+    "$date": "2025-06-07T23:16:52.509Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6846e2b72ae696ebd3b5e26b"
+  },
+  "email": "test_test@unipi.gr",
+  "password": "scrypt:32768:8:1$0vW4mF4SVt2IrOY4$ff445eeab18851d16cacb6ed2fec36d371781af7a5b6794362450c92d4e375d8a501a5964a3aa08355658c36328bd87d0356833fdde162d44408e3fe01f1166f",
+  "created_at": {
+    "$date": "2025-06-09T13:33:43.390Z"
+  }
+}]
