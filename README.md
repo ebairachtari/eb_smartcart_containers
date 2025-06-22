@@ -15,7 +15,7 @@
 
 | Container              | Περιγραφή                                                    |
 | ---------------------- | ------------------------------------------------------------ |
-| `smartcart_backend`    | RESTful API για αυθεντικοποίηση και καλάθια               |
+| `smartcart_backend`    | RESTful API για αυθεντικοποίηση και καλάθια                  |
 | `smartcart_frontend`   | Streamlit διεπαφή για χρήση από χρήστη                       |
 | `smartcart_mongo`      | MongoDB βάση με όλα τα δεδομένα προϊόντων/καλαθιών           |
 | `smartcart_ml_service` | ML υπηρεσία με KMeans μοντέλο πρόβλεψης αγοραστικών patterns |
@@ -23,32 +23,6 @@
 | `smartcart_jenkins`    | Jenkins CI για έλεγχο & deployment                           |
 
 ---
-
-🧱 1. smartcart_mongo
-📦 Image: mongo:4.4
-🔁 Τρέχει MongoDB και αρχικοποιείται με δεδομένα από ./mongo-init/
-
-🧠 2. smartcart_backend
-📦 Image: Χτίζεται από Dockerfile στο root
-🛠 Τρέχει Flask API που μιλά με MongoDB
-🌐 Port: 5000
-
-🤖 3. smartcart_ml_service
-📦 Image: Χτίζεται από ./analytics_service/Dockerfile
-🧠 Περιέχει το ML μοντέλο σου (model.pkl)
-🌐 Port: 5001 (χρησιμοποιείται εσωτερικά από Node-RED)
-
-🖥 4. smartcart_frontend
-📦 Image: Χτίζεται από ./ui/Dockerfile
-📊 Streamlit εφαρμογή
-🌐 Port: 8501
-
-🧩 5. smartcart_nodered
-📦 Image: nodered/node-red
-🔄 Ενοποιεί backend + ML μέσω flows
-🌐 Port: 1880
-
-
 
 ## Οδηγίες Εκτέλεσης
 
