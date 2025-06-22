@@ -98,7 +98,7 @@ curl -X POST http://localhost:5001/predict \
 
 ---
 
-## 🔧 Jenkins (Pipeline από SCM)
+## Jenkins (Pipeline από SCM)
 
 1. Εκκίνηση:
 
@@ -124,5 +124,6 @@ docker exec smartcart_jenkins cat /var/jenkins_home/secrets/initialAdminPassword
    * Branch: `*/main`
 
 5. Τρέξτε' το!
+
 
 >*Αναπτύχθηκε αποκλειστικά για εκπαιδευτικούς σκοπούς.*
