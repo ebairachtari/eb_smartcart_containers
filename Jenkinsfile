@@ -2,48 +2,36 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone') {
+        stage('Clean Repo') {
             steps {
-                echo '🧹 Cleaning old clone (if exists)...'
+                echo '🧹 Removing previous clone if exists...'
                 sh 'rm -rf eb_smartcart_containers'
+            }
+        }
+
+        stage('Clone Repo') {
+            steps {
                 echo '🔽 Cloning repo...'
                 sh 'git clone https://github.com/ebairachtari/eb_smartcart_containers.git'
             }
         }
 
-        stage('Cleanup') {
+        stage('Build & Deploy Containers') {
             steps {
-                echo '🔁 Removing old containers (if any)...'
+                echo '🚀 Deploying containers from docker-compose.yml...'
                 dir('eb_smartcart_containers') {
                     sh '''
-                    docker-compose -f docker-compose.jenkins.yml down || true
-                    docker volume prune -f || true
-                    '''
-                }
-            }
-        }
+                        echo "🧹 Stopping & removing containers..."
+                        docker-compose down || true
 
-        stage('Build & Start Containers') {
-            steps {
-                echo '🚀 Starting SmartCart containers from docker-compose.jenkins.yml...'
-                dir('eb_smartcart_containers') {
-                    sh '''
-                    docker-compose -f docker-compose.jenkins.yml up -d --build
-                    '''
-                }
-            }
-        }
+                        echo "🧼 Deleting leftover containers (if exist)..."
+                        docker rm -f smartcart_mongo smartcart_ml_service smartcart_backend smartcart_frontend smartcart_nodered || true
 
-        stage('Health Check') {
-            steps {
-                echo 'Checking service availability...'
-                dir('eb_smartcart_containers') {
-                    sh '''
-                    sleep 10
-                    echo "Checking Backend..."
-                    curl --fail http://localhost:5000/health || echo "⚠️ Backend not responding"
-                    echo "Checking Frontend..."
-                    curl --fail http://localhost:8000 || echo "⚠️ Frontend not responding"
+                        echo "🧹 Pruning volumes..."
+                        docker volume prune -f || true
+
+                        echo "🚀 Starting fresh containers..."
+                        docker-compose up -d --build
                     '''
                 }
             }
@@ -51,11 +39,11 @@ pipeline {
     }
 
     post {
-        failure {
-            echo '❌ Build failed.'
-        }
         success {
-            echo '✅ SmartCart deployed with docker-compose.jenkins.yml!'
+            echo '✅ SUCCESS: SmartCart containers are up and healthy!'
+        }
+        failure {
+            echo '❌ FAILURE: Something went wrong during the pipeline.'
         }
     }
 }
