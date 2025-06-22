@@ -64,9 +64,9 @@ db.products.find().pretty()
 
 ### Frontend:
 
-[http://localhost:8501](http://localhost:8501)
+>Στοιχεία Σύνδεδης: Username : `demo_user@unipi.gr`  , Password  : `qqQQ11!!`
 
-Στοιχεία Σύνδεδης: >Username : `demo_user@unipi.gr`  , Password  : `qqQQ11!!`
+[http://localhost:8501](http://localhost:8501)
 
 >Αποτελέσματα
 ![image](https://github.com/user-attachments/assets/8f438bdc-f5d7-4d80-b3d8-30a92aa2cda7)
