@@ -31,7 +31,7 @@ git clone https://github.com/ebairachtari/eb_smartcart-containers.git
 cd eb_smartcart-containers
 docker compose up --build -d
 ```
-
+>Αποτελέσματα
 ![image](https://github.com/user-attachments/assets/dd580915-491e-4c18-a69b-4ec4220c7084)
 
 ---
