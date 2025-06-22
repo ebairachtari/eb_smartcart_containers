@@ -129,8 +129,8 @@ curl -X POST http://localhost:5001/predict \
 docker compose -f docker-compose.jenkins.yml up --build -d
 ```
 
->Αποτελέσματα
-![image](https://github.com/user-attachments/assets/b756e8ef-cf67-4183-9a2f-a3b8755b4aa4)
+> **Αποτελέσματα**
+>>![image](https://github.com/user-attachments/assets/b756e8ef-cf67-4183-9a2f-a3b8755b4aa4)
 
 
 2. Άνοιγμα: [http://localhost:8080](http://localhost:8080)
