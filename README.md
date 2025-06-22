@@ -94,7 +94,7 @@ curl -X POST http://localhost:5001/predict \
 1. Ανοίξτε: [http://localhost:1880](http://localhost:1880)
 2. **Import** το αρχείο `smartcart_nodered_predict_flow.json`
 3. Πατήστε **Deploy**
-4. Πατήστετο κουμπί `Send Basket` και δες το αποτέλεσμα
+4. Πατήστε το κουμπί `Send Basket` και δίτε το αποτέλεσμα
 
 Το flow στέλνει δεδομένα καλαθιού στο `http://smartcart_ml_service:5001/predict` και εμφανίζει την απάντηση στο sidebar.
 
@@ -110,7 +110,7 @@ docker compose -f jenkins-standalone.yml up -d
 
 2. Άνοιγμα: [http://localhost:8080](http://localhost:8080)
 
-3. Ανάκτηση αρχικού κωδικού:
+3. Ανάκτηση κωδικού:
 
 ```bash
 docker exec smartcart_jenkins cat /var/jenkins_home/secrets/initialAdminPassword
