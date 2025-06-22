@@ -60,7 +60,7 @@ db.products.find().pretty()
 >>![image](https://github.com/user-attachments/assets/fa1bcdc6-2a5b-4d8d-9890-162253d56e5f)
 
 
-### Frontend:
+### Frontend login:
 
 [http://localhost:8501](http://localhost:8501) , Στοιχεία Σύνδεδης: Username : `demo_user@unipi.gr`  , Password  : `qqQQ11!!`
 
