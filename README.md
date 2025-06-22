@@ -58,7 +58,7 @@ db.products.find().pretty()
 Στοιχεία Σύνδεδης
 
 |        Username        |  |   Password  |
-| ---------------------- | -------------- |
+| ---------------------- |  |------------ |
 |  `demo_user@unipi.gr`  |  |  `qqQQ11!!` |
 
 ### Backend login:
