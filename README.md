@@ -55,10 +55,7 @@ db.products.find().pretty()
 
 [http://localhost:8501](http://localhost:8501)
 
-Στοιχεία Σύνδεδης
-
-Username : `demo_user@unipi.gr`  
-Password  : `qqQQ11!!` 
+> Στοιχεία Σύνδεδης: Username : `demo_user@unipi.gr`  , Password  : `qqQQ11!!` 
 
 ### Backend login:
 
