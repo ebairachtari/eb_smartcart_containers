@@ -6,6 +6,6 @@ from app import create_app
 # Φτιάχνω το Flask app καλώντας τη συνάρτηση που έχω ορίσει στο app/__init__.py
 app = create_app()
 
-# Εκτελώ τον server στην πόρτα 5000 για να μιλάει σωστά με το UI
+# Εκτελώ τον server στην πόρτα 5000 για να επικοινωνεί σωστά με το UI
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
