@@ -24,7 +24,7 @@ pipeline {
                         echo "🧹 Stopping & removing containers..."
                         docker-compose down || true
 
-                        echo "🧼 Deleting leftover containers (if exist)..."
+                        echo "🧹 Deleting leftover containers (if exist)..."
                         docker rm -f smartcart_mongo smartcart_ml_service smartcart_backend smartcart_frontend smartcart_nodered || true
 
                         echo "🧹 Pruning volumes..."
