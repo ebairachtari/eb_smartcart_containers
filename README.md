@@ -66,7 +66,6 @@ db.products.find().pretty()
 
 [http://localhost:8501](http://localhost:8501) , Στοιχεία Σύνδεδης: Username : `demo_user@unipi.gr`  , Password  : `qqQQ11!!`
 
-
 >Αποτελέσματα
 ![image](https://github.com/user-attachments/assets/8f438bdc-f5d7-4d80-b3d8-30a92aa2cda7)
 
@@ -116,7 +115,6 @@ curl -X POST http://localhost:5001/predict \
 Το flow στέλνει δεδομένα καλαθιού στο `http://smartcart_ml_service:5001/predict` και εμφανίζει την απάντηση στο sidebar.
 
 >Αποτελέσματα
-
 ![image](https://github.com/user-attachments/assets/8afaa912-4aea-4dbc-adb9-6a068280c67c)
 
 
