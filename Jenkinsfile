@@ -1,20 +1,48 @@
 pipeline {
     agent any
+
+    environment {
+        COMPOSE_FILE = 'docker-compose.yml'
+    }
+
     stages {
-        stage('Start') {
+        stage('Cleanup') {
             steps {
-                echo '✅ Jenkins pipeline started'
+                echo 'Removing old containers (if any)...'
+                sh '''
+                docker compose down || true
+                docker volume prune -f || true
+                '''
             }
         }
-        stage('Simulate Test') {
+
+        stage('Build & Start Containers') {
             steps {
-                sh 'echo Hello from SmartCart!'
+                echo 'Starting SmartCart containers...'
+                sh '''
+                docker compose up -d --build
+                '''
             }
         }
-        stage('Finish') {
+
+        stage('Health Check') {
             steps {
-                echo '🎉 All steps finished successfully'
+                echo 'Checking service availability...'
+                sh '''
+                sleep 10
+                curl --fail http://localhost:5000/health || echo "Backend not responding"
+                curl --fail http://localhost:8000 || echo "Frontend not responding"
+                '''
             }
+        }
+    }
+
+    post {
+        failure {
+            echo '❌ Build failed.'
+        }
+        success {
+            echo '✅ All SmartCart services deployed successfully.'
         }
     }
 }
