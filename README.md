@@ -154,6 +154,4 @@ docker exec smartcart_jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 >Αποτελέσματα
 
->![image](https://github.com/user-attachments/assets/1254f29f-0a02-40bc-9557-40d4dac39a81)
-
 >*Αναπτύχθηκε αποκλειστικά για εκπαιδευτικούς σκοπούς.*
