@@ -14,7 +14,7 @@ pipeline {
 
         stage('Cleanup old containers') {
             steps {
-                echo "Removing old containers (if any)..."
+                echo "🔁 Removing old containers (if any)..."
                 sh '''
                     docker rm -f ${COMPOSE_PROJECT_NAME}_mongo || true
                     docker rm -f ${COMPOSE_PROJECT_NAME}_ml_service || true
