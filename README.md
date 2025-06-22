@@ -24,7 +24,7 @@
 
 ---
 
-## Οδηγίες Εκτέλεσης (τοπικά)
+## Οδηγίες Εκτέλεσης
 
 ```bash
 git clone https://github.com/ebairachtari/eb_smartcart-containers.git
@@ -36,7 +36,7 @@ docker compose up --build -d
 
 ## Έλεγχος συστήματος
 
-### Test όλων των endpoints:
+### Test των endpoints:
 
 ```bash
 ./curl_test.sh
