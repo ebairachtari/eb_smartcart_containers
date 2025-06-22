@@ -77,7 +77,7 @@ curl -X POST http://localhost:5000/auth/login \
 
 ---
 
-## ML Service: Πρόβλεψη τύπου χρήστη
+## ML Service: Πρόβλεψη cluster νέου καλαθιού
 
 Το αρχείο `train_from_mongo.py` ανακτά **user baskets** από τη MongoDB, δημιουργεί πίνακα `user_id × product_id` και εφαρμόζει KMeans.
 
@@ -118,8 +118,10 @@ curl -X POST http://localhost:5001/predict \
 1. Εκκίνηση:
 
 ```bash
-docker compose -f jenkins-standalone.yml up -d
+docker compose -f docker-compose.jenkins.yml up --build -d
 ```
+![image](https://github.com/user-attachments/assets/b756e8ef-cf67-4183-9a2f-a3b8755b4aa4)
+
 
 2. Άνοιγμα: [http://localhost:8080](http://localhost:8080)
 
