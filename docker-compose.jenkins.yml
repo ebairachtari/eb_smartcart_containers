@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  jenkins:
+    build:
+      context: .
+      dockerfile: Dockerfile.jenkins
+    container_name: smartcart_jenkins
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock  # <-- Σημαντικό για πρόσβαση στο Docker
+    user: root
+    restart: unless-stopped
+
+volumes:
+  jenkins_home:
+
