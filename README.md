@@ -97,8 +97,8 @@ curl -X POST http://localhost:5001/predict \
   -d '{"basket": [1,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,1,0]}'
 ```
 
->Αποτελέσματα
-![image](https://github.com/user-attachments/assets/e3d6390a-7c66-4de2-9912-3f91759c211e)
+> **Αποτελέσματα**
+>![image](https://github.com/user-attachments/assets/e3d6390a-7c66-4de2-9912-3f91759c211e)
 
 ---
 
@@ -116,7 +116,7 @@ curl -X POST http://localhost:5001/predict \
 Το flow στέλνει δεδομένα καλαθιού στο `http://smartcart_ml_service:5001/predict` και εμφανίζει την απάντηση στο sidebar.
 
 > **Αποτελέσματα**
->![image](https://github.com/user-attachments/assets/8afaa912-4aea-4dbc-adb9-6a068280c67c)
+>>![image](https://github.com/user-attachments/assets/8afaa912-4aea-4dbc-adb9-6a068280c67c)
 
 
 ---
