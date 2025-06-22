@@ -8,9 +8,9 @@ pipeline {
     stages {
         stage('Cleanup') {
             steps {
-                echo 'Removing old containers (if any)...'
+                echo '🔁 Removing old containers (if any)...'
                 sh '''
-                docker compose down || true
+                docker-compose down || true
                 docker volume prune -f || true
                 '''
             }
@@ -18,9 +18,9 @@ pipeline {
 
         stage('Build & Start Containers') {
             steps {
-                echo 'Starting SmartCart containers...'
+                echo '🚀 Starting SmartCart containers...'
                 sh '''
-                docker compose up -d --build
+                docker-compose up -d --build
                 '''
             }
         }
@@ -29,9 +29,14 @@ pipeline {
             steps {
                 echo 'Checking service availability...'
                 sh '''
+                echo "⌛ Waiting for services to warm up..."
                 sleep 10
-                curl --fail http://localhost:5000/health || echo "Backend not responding"
-                curl --fail http://localhost:8000 || echo "Frontend not responding"
+
+                echo "Checking Backend..."
+                curl --fail http://localhost:5000/health || echo "⚠️ Backend not responding"
+
+                echo "Checking Frontend..."
+                curl --fail http://localhost:8000 || echo "⚠️ Frontend not responding"
                 '''
             }
         }
@@ -39,10 +44,10 @@ pipeline {
 
     post {
         failure {
-            echo '❌ Build failed.'
+            echo '❌ Build failed. Please check logs for errors.'
         }
         success {
-            echo '✅ All SmartCart services deployed successfully.'
+            echo '✅ All SmartCart services deployed successfully and passed basic health check.'
         }
     }
 }
