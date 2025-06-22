@@ -160,11 +160,11 @@ docker exec smartcart_jenkins cat /var/jenkins_home/secrets/initialAdminPassword
    * Τύπος: **Pipeline**
    * Definition: *Pipeline script from SCM*
    * SCM: Git
-   * Repo URL: `https://github.com/ebairachtari/eb_smartcart-containers`
+   * Repo URL: `https://github.com/ebairachtari/eb_smartcart_containers`
    * Script Path: `Jenkinsfile`
    * Branch: `*/main`
 
-5. Τρέξτε' το!
+5. Build now!
 
 
 >*Αναπτύχθηκε αποκλειστικά για εκπαιδευτικούς σκοπούς.*
