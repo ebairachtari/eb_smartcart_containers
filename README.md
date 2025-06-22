@@ -55,6 +55,16 @@ db.products.find().pretty()
 
 [http://localhost:8501](http://localhost:8501)
 
+Στοιχεία σύνδεσης 
+username
+```bash
+demo_user@unipi.gr
+```
+password
+```bash
+qqQQ11!!
+```
+
 ### Backend login:
 
 ```bash
