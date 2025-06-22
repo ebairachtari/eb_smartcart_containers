@@ -55,7 +55,7 @@ db.products.find().pretty()
 
 [http://localhost:8501](http://localhost:8501)
 
-### 🔐 Backend login:
+### Backend login:
 
 ```bash
 curl -X POST http://localhost:5000/auth/login \
