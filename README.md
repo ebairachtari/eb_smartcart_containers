@@ -116,6 +116,7 @@ curl -X POST http://localhost:5001/predict \
 Το flow στέλνει δεδομένα καλαθιού στο `http://smartcart_ml_service:5001/predict` και εμφανίζει την απάντηση στο sidebar.
 
 >Αποτελέσματα
+
 ![image](https://github.com/user-attachments/assets/8afaa912-4aea-4dbc-adb9-6a068280c67c)
 
 
