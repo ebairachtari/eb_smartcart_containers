@@ -96,7 +96,7 @@ curl -X POST http://localhost:5001/predict \
 ```
 
 > **Αποτελέσματα**
->>>![image](https://github.com/user-attachments/assets/e3d6390a-7c66-4de2-9912-3f91759c211e)
+>>![image](https://github.com/user-attachments/assets/e3d6390a-7c66-4de2-9912-3f91759c211e)
 
 ---
 
