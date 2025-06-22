@@ -31,6 +31,7 @@ git clone https://github.com/ebairachtari/eb_smartcart-containers.git
 cd eb_smartcart-containers
 docker compose up --build -d
 ```
+
 >Αποτελέσματα
 ![image](https://github.com/user-attachments/assets/dd580915-491e-4c18-a69b-4ec4220c7084)
 
@@ -43,6 +44,8 @@ docker compose up --build -d
 ```bash
 ./curl_test.sh
 ```
+
+>Αποτελέσματα
 ![image](https://github.com/user-attachments/assets/ef5eb13c-04fd-4d22-9ce9-8e26320e576b)
 
 
@@ -55,6 +58,7 @@ show collections
 db.products.find().pretty()
 ```
 
+>Αποτελέσματα
 ![image](https://github.com/user-attachments/assets/fa1bcdc6-2a5b-4d8d-9890-162253d56e5f)
 
 
@@ -64,6 +68,7 @@ db.products.find().pretty()
 
 > Στοιχεία Σύνδεδης: Username : `demo_user@unipi.gr`  , Password  : `qqQQ11!!`
 
+>Αποτελέσματα
 ![image](https://github.com/user-attachments/assets/8f438bdc-f5d7-4d80-b3d8-30a92aa2cda7)
 
 ### Backend login:
@@ -73,6 +78,8 @@ curl -X POST http://localhost:5000/auth/login \
   -H "Content-Type: application/json" \
   -d '{"email": "demo_user@unipi.gr", "password": "qqQQ11!!"}'
 ```
+
+>Αποτελέσματα
 ![image](https://github.com/user-attachments/assets/26bf5866-cdbe-433f-929f-4a038d15c576)
 
 ---
@@ -91,6 +98,7 @@ curl -X POST http://localhost:5001/predict \
   -d '{"basket": [1,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,1,0]}'
 ```
 
+>Αποτελέσματα
 ![image](https://github.com/user-attachments/assets/e3d6390a-7c66-4de2-9912-3f91759c211e)
 
 ---
@@ -108,6 +116,7 @@ curl -X POST http://localhost:5001/predict \
 
 Το flow στέλνει δεδομένα καλαθιού στο `http://smartcart_ml_service:5001/predict` και εμφανίζει την απάντηση στο sidebar.
 
+>Αποτελέσματα
 ![image](https://github.com/user-attachments/assets/8afaa912-4aea-4dbc-adb9-6a068280c67c)
 
 
@@ -120,6 +129,8 @@ curl -X POST http://localhost:5001/predict \
 ```bash
 docker compose -f docker-compose.jenkins.yml up --build -d
 ```
+
+>Αποτελέσματα
 ![image](https://github.com/user-attachments/assets/b756e8ef-cf67-4183-9a2f-a3b8755b4aa4)
 
 
